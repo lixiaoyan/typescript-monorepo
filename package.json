@@ -1,0 +1,13 @@
+{
+  "name": "@scope/repository",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "tsc --build ./packages/*"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.3"
+  }
+}

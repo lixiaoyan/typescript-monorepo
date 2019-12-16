@@ -1,0 +1,11 @@
+{
+  "exclude": ["node_modules", "./packages/*/lib"],
+  "compilerOptions": {
+    "noEmit": true,
+    "composite": true,
+    "baseUrl": ".",
+    "paths": {
+      "@scope/*": ["./packages/*/src"]
+    }
+  }
+}
